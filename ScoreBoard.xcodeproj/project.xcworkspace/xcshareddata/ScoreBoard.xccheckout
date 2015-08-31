@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E53AD64-206B-46EA-9875-9F895774A18E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ScoreBoard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B7FAD1DA95052221C9F0B59DB25F64D0E557D361</key>
+		<string>https://github.com/shanshuo0918/scoreboard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ScoreBoard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B7FAD1DA95052221C9F0B59DB25F64D0E557D361</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shanshuo0918/scoreboard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B7FAD1DA95052221C9F0B59DB25F64D0E557D361</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B7FAD1DA95052221C9F0B59DB25F64D0E557D361</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ScoreBoard</string>
+		</dict>
+	</array>
+</dict>
+</plist>
