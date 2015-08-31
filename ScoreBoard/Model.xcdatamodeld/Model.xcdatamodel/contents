@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Completed" syncable="YES">
+        <attribute name="matchID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchRecord" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Image" syncable="YES">
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Unfinished" syncable="YES">
+        <attribute name="matchID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchRecord" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Completed" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Unfinished" positionX="-63" positionY="0" width="128" height="75"/>
+        <element name="Image" positionX="-63" positionY="9" width="128" height="75"/>
+    </elements>
+</model>
