@@ -172,10 +172,6 @@ class MatchHistoryTableViewController: UITableViewController, ButtonTableViewCel
                 return cell
             }
         }
-        
-        let cell = tableView.dequeueReusableCellWithIdentifier("empty", forIndexPath: indexPath) as! UITableViewCell
-        cell.backgroundColor = UIColor.clearColor()
-        return cell
     }
     
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
@@ -193,6 +189,8 @@ class MatchHistoryTableViewController: UITableViewController, ButtonTableViewCel
             managedContext.deleteObject(matchs[indexPath.row])
             var error: NSError?
             managedContext.save(&error)
+            
+            matchs.removeAtIndex(indexPath.row)
             tableView.reloadData()
         }
     }

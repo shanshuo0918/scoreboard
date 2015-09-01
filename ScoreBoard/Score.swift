@@ -225,7 +225,7 @@ public class Match: NSObject, NSCoding {
     func AWin()
     {
         points.last?.log += playerA
-        points.last?.log += " won the Match"
+        points.last?.log += " WON the Match. "
 //        logs.append(playerA + " won the Match")
         self.completed = true
         self.winner = 0
@@ -236,7 +236,7 @@ public class Match: NSObject, NSCoding {
     func AGetSet()
     {
         points.last?.log += playerA
-        points.last?.log += " won the set"
+        points.last?.log += " WON the Set. "
 //        logs.append(playerA + " won the set")
         sets.append("\(getAGame())-\(getBGame())")
         setA = setA + 1
@@ -253,7 +253,7 @@ public class Match: NSObject, NSCoding {
     func AGetGame()
     {
         points.last?.log += playerA
-        points.last?.log += " won the game"
+        points.last?.log += " WON the Game. "
 //        logs.append(playerA + " won the game")
         gameA = gameA + 1
         currentServer = 1 - currentServer
@@ -299,7 +299,7 @@ public class Match: NSObject, NSCoding {
 //        logs.append(playerA + " won the point")
         let point: Point = Point(currentMatch: self, winner: 0)
         points.append(point)
-        points.last?.log = playerA + " won the point"
+        points.last?.log = playerA + " WON the Point. "
         
         scoreA = scoreA + 1
         
@@ -341,7 +341,7 @@ public class Match: NSObject, NSCoding {
     func BWin()
     {
         points.last?.log += playerB
-        points.last?.log += "won the Match"
+        points.last?.log += " WON the Match. "
 //        logs.append(playerB + " won the Match")
         self.completed = true
         self.winner = 1
@@ -352,7 +352,7 @@ public class Match: NSObject, NSCoding {
     func BGetSet()
     {
         points.last?.log += playerB
-        points.last?.log += "won the set"
+        points.last?.log += " WON the Set. "
 //        logs.append(playerB + " won the set")
         sets.append("\(getAGame())-\(getBGame())")
         setB = setB + 1
@@ -369,7 +369,7 @@ public class Match: NSObject, NSCoding {
     func BGetGame()
     {
         points.last?.log += playerB
-        points.last?.log += "won the game"
+        points.last?.log += " WON the Game. "
 //        logs.append(playerB + " won the game")
         gameB = gameB + 1
         currentServer = 1 - currentServer
@@ -414,7 +414,7 @@ public class Match: NSObject, NSCoding {
     {
         let point: Point = Point(currentMatch: self, winner: 1)
         points.append(point)
-        points.last?.log = playerB + " won the point"
+        points.last?.log = playerB + " WON the Point. "
 //        logs.append(playerB + " won the point")
         scoreB = scoreB + 1
         if inSuperTieBreak {
